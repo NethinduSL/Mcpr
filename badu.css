@@ -1,0 +1,90 @@
+
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poppins", serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 90%;
+    max-width: 50vw;
+
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+.opt{
+    width: 100%;
+    max-width: 50vw;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+.square:hover {
+    transform: scale(1.05);
+}
+
+.square img {
+  
+    max-height: 20vh;
+    object-fit: cover;
+}
+
+.square h3 {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+.square p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+        .opt:hover {
+    transform: scale(1.05);
+}
+
+.opt img {
+    max-width: 80%;
+    object-fit: cover;
+}
+
+.opt h3 {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+.opt p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+
