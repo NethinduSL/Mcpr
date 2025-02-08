@@ -19,6 +19,7 @@ async function updateClassData() {
                 const imgId = `img${classKey.charAt(5).toUpperCase()}`;
                 const nameId = `name${classKey.charAt(5).toUpperCase()}`;
                 const subjectId = `subject${classKey.charAt(5).toUpperCase()}`;
+  document.getElementById("Rak").textContent = period.id;
 
                 if (teacherId && teachers[teacherId]) {
                     const teacher = teachers[teacherId];
