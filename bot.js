@@ -9,7 +9,8 @@
         { start: "10:50", end: "11:30", id: "period6" },
         { start: "11:30", end: "12:10", id: "period7" },
         { start: "12:10", end: "12:50", id: "period8" },
-        { start: "12.50", end: "13:30", id: "period9" }
+        { start: "12.50", end: "13:30", id: "period9" },
+       { start: "13.30", end: "23:00", id: "No School" }
     ];
 
     // Teacher details (ID => Name and Subject)
